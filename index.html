@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Nest — Mental Health &amp; Wellbeing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="nest-bg" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 48 48" width="30" height="30">
+        <path d="M6 30c4-10 14-16 18-16s14 6 18 16c-6 5-12 7-18 7s-12-2-18-7Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+        <circle cx="18" cy="26" r="3.4" fill="currentColor"/>
+        <circle cx="26" cy="23" r="3.4" fill="currentColor"/>
+        <circle cx="32" cy="27.5" r="3.4" fill="currentColor"/>
+      </svg>
+    </span>
+    <div class="brand-text">
+      <span class="brand-name">Quiz Nest</span>
+      <span class="brand-sub">Mental Health &amp; Wellbeing · NPTEL</span>
+    </div>
+  </div>
+  <button class="home-link" id="headerHomeBtn" type="button" hidden>Home</button>
+</header>
+
+<main id="app">
+
+  <!-- HOME -->
+  <section class="screen active" id="screen-home" data-screen="home">
+    <div class="hero">
+      <h1>Settle in. Study a little, quiz a little.</h1>
+      <p>Twelve weeks of Mental Health &amp; Wellbeing, in one calm place. Learn each week at your own pace, then practice however you like — no login, no server, no pressure.</p>
+    </div>
+
+    <div class="mode-cards">
+      <button class="mode-card mode-card--learn" type="button" data-nav="learning-select">
+        <span class="mode-icon" aria-hidden="true">📖</span>
+        <span class="mode-title">Learning</span>
+        <span class="mode-desc">Go week by week and see every question with its correct answer.</span>
+        <span class="mode-cta">Start learning →</span>
+      </button>
+
+      <button class="mode-card mode-card--practice" type="button" data-nav="practice-setup">
+        <span class="mode-icon" aria-hidden="true">🎯</span>
+        <span class="mode-title">Practice</span>
+        <span class="mode-desc">Pick your weeks, get shuffled questions and options, and test yourself.</span>
+        <span class="mode-cta">Start practice →</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- LEARNING: WEEK SELECT -->
+  <section class="screen" id="screen-learning-select" data-screen="learning-select">
+    <button class="back-btn" type="button" data-nav="home">← Back</button>
+    <h2 class="screen-title">Choose a week to learn</h2>
+    <p class="screen-sub">Tap a week to see its questions and answers, or view everything at once.</p>
+
+    <div class="week-grid" id="learningWeekGrid"></div>
+
+    <button class="view-all-btn" type="button" id="viewAllWeeksBtn">View all weeks (full Q&amp;A)</button>
+  </section>
+
+  <!-- LEARNING: VIEW -->
+  <section class="screen" id="screen-learning-view" data-screen="learning-view">
+    <button class="back-btn" type="button" data-nav="learning-select">← Back to weeks</button>
+    <h2 class="screen-title" id="learningViewTitle">Week 1</h2>
+    <div class="qa-list" id="learningQAList"></div>
+  </section>
+
+  <!-- PRACTICE: SETUP -->
+  <section class="screen" id="screen-practice-setup" data-screen="practice-setup">
+    <button class="back-btn" type="button" data-nav="home">← Back</button>
+    <h2 class="screen-title">Choose weeks to practice</h2>
+    <p class="screen-sub">Select one or more weeks. Questions and their options will be shuffled every time.</p>
+
+    <div class="practice-controls">
+      <button class="link-btn" type="button" id="selectAllWeeksBtn">Select all</button>
+      <button class="link-btn" type="button" id="clearAllWeeksBtn">Clear all</button>
+    </div>
+
+    <div class="week-grid week-grid--select" id="practiceWeekGrid"></div>
+
+    <button class="start-practice-btn" type="button" id="startPracticeBtn" disabled>Start practice</button>
+    <p class="empty-note" id="practiceEmptyNote" hidden>No questions available in the selected week(s) yet.</p>
+  </section>
+
+  <!-- PRACTICE: QUIZ -->
+  <section class="screen" id="screen-practice-quiz" data-screen="practice-quiz">
+    <button class="back-btn" type="button" data-nav="practice-setup">← End practice</button>
+
+    <div class="quiz-progress">
+      <div class="quiz-progress-bar"><div class="quiz-progress-fill" id="quizProgressFill"></div></div>
+      <span class="quiz-progress-label" id="quizProgressLabel">Question 1 of 10</span>
+    </div>
+
+    <div class="question-card">
+      <p class="question-week-tag" id="quizWeekTag">Week 3</p>
+      <h2 class="question-text" id="quizQuestionText">Question text</h2>
+      <div class="options-list" id="quizOptionsList"></div>
+    </div>
+
+    <button class="next-btn" type="button" id="quizNextBtn" disabled>Next question</button>
+  </section>
+
+  <!-- PRACTICE: RESULTS -->
+  <section class="screen" id="screen-practice-results" data-screen="practice-results">
+    <h2 class="screen-title">Nice work.</h2>
+    <div class="score-card">
+      <span class="score-big" id="scoreBig">0/0</span>
+      <span class="score-label" id="scoreLabel">correct</span>
+    </div>
+
+    <div class="results-actions">
+      <button class="start-practice-btn" type="button" id="practiceAgainBtn">Practice these weeks again</button>
+      <button class="secondary-btn" type="button" data-nav="home">Back to home</button>
+    </div>
+
+    <h3 class="review-heading">Review your answers</h3>
+    <div class="qa-list" id="resultsReviewList"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Naresh_Y|All rights Reserved</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

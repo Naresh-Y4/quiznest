@@ -1,7 +1,7 @@
 /* ============================================================
    QUIZ NEST — APP LOGIC
    No backend. Everything runs in the browser using quizData
-   from data.js.
+   (js/data.js) and pyqData (js/pyq-data.js).
    ============================================================ */
 
 (function () {
@@ -18,7 +18,10 @@
     practiceIndex: 0,
     practiceScore: 0,
     practiceAnswers: [],           // { weekTag, question, options, answerIndex, pickedIndex }
-    advanceTimer: null
+    advanceTimer: null,
+    // where "End practice" / "Practice again" should return to / re-run:
+    // { origin: "practice-setup" | "home", source: "weekly" | "pyq" }
+    practiceContext: { origin: "practice-setup", source: "weekly" }
   };
 
   // ---------- helpers ----------
@@ -63,7 +66,7 @@
   });
 
   // ============================================================
-  // LEARNING
+  // LEARNING (weekly)
   // ============================================================
   function renderLearningWeekGrid() {
     const grid = document.getElementById("learningWeekGrid");
@@ -132,7 +135,20 @@
   }
 
   // ============================================================
-  // PRACTICE — SETUP
+  // PYQ — VIEW (straight page, no year picker: it's one year's worth)
+  // ============================================================
+  document.getElementById("pyqViewBtn").addEventListener("click", () => {
+    clearAdvanceTimer();
+    document.getElementById("pyqViewTitle").textContent =
+      pyqData.title || "Previous Year Questions";
+    renderQAList(document.getElementById("pyqQAList"), [
+      { weekLabel: "PYQ", questions: pyqData.questions }
+    ]);
+    showScreen("pyq-view");
+  });
+
+  // ============================================================
+  // PRACTICE — SETUP (weekly)
   // ============================================================
   function renderPracticeWeekGrid() {
     const grid = document.getElementById("practiceWeekGrid");
@@ -181,37 +197,75 @@
     document.getElementById("practiceEmptyNote").hidden = state.practiceSelectedWeeks.size === 0 || totalQs > 0;
   }
 
-  document.getElementById("startPracticeBtn").addEventListener("click", startPractice);
-  document.getElementById("practiceAgainBtn").addEventListener("click", startPractice);
+  document.getElementById("startPracticeBtn").addEventListener("click", () => {
+    startWeeklyPractice();
+  });
 
-  function startPractice() {
+  function startWeeklyPractice() {
     const weeks = [...state.practiceSelectedWeeks];
     let pool = [];
     weeks.forEach((num) => {
       const week = getWeek(num);
       week.questions.forEach((q) => {
-        const shuffledOptions = shuffle(q.options.map((opt, i) => ({ text: opt, originallyCorrect: i === q.answer })));
-        pool.push({
-          weekLabel: `Week ${week.week}`,
-          question: q.question,
-          options: shuffledOptions.map((o) => o.text),
-          answerIndex: shuffledOptions.findIndex((o) => o.originallyCorrect)
-        });
+        pool.push(buildPoolItem(`Week ${week.week}`, q));
       });
     });
-    pool = shuffle(pool);
+    state.practiceContext = { origin: "practice-setup", source: "weekly" };
+    launchPractice(pool);
+  }
 
-    state.practicePool = pool;
+  // ============================================================
+  // PRACTICE PYQ — jumps straight into the quiz, no setup screen
+  // ============================================================
+  document.getElementById("pyqPracticeBtn").addEventListener("click", () => {
+    startPyqPractice();
+  });
+
+  function startPyqPractice() {
+    const pool = pyqData.questions.map((q) => buildPoolItem("PYQ", q));
+    state.practiceContext = { origin: "home", source: "pyq" };
+    launchPractice(pool);
+  }
+
+  function buildPoolItem(label, q) {
+    const shuffledOptions = shuffle(
+      q.options.map((opt, i) => ({ text: opt, originallyCorrect: i === q.answer }))
+    );
+    return {
+      weekLabel: label,
+      question: q.question,
+      options: shuffledOptions.map((o) => o.text),
+      answerIndex: shuffledOptions.findIndex((o) => o.originallyCorrect)
+    };
+  }
+
+  function launchPractice(pool) {
+    state.practicePool = shuffle(pool);
     state.practiceIndex = 0;
     state.practiceScore = 0;
     state.practiceAnswers = [];
-
     renderPracticeQuestion();
     showScreen("practice-quiz");
   }
 
+  document.getElementById("practiceAgainBtn").addEventListener("click", () => {
+    if (state.practiceContext.source === "pyq") {
+      startPyqPractice();
+    } else {
+      startWeeklyPractice();
+    }
+  });
+
+  document.getElementById("quizEndBtn").addEventListener("click", () => {
+    clearAdvanceTimer();
+    if (state.practiceContext.origin === "practice-setup") {
+      renderPracticeWeekGrid();
+    }
+    showScreen(state.practiceContext.origin);
+  });
+
   // ============================================================
-  // PRACTICE — QUIZ
+  // PRACTICE — QUIZ (shared: weekly + PYQ)
   // ============================================================
   function clearAdvanceTimer() {
     if (state.advanceTimer) {

@@ -188,14 +188,22 @@ p { margin: 0; }
 .mode-card--learn:hover { border-color: var(--aurora); box-shadow: var(--shadow-2), 0 0 30px var(--aurora-dim); }
 .mode-card--practice { border-color: rgba(255,155,110,0.25); }
 .mode-card--practice:hover { border-color: var(--ember); box-shadow: var(--shadow-2), 0 0 30px var(--ember-dim); }
+.mode-card--pyq-learn,
+.mode-card--pyq-practice { border-color: rgba(183,156,250,0.25); }
+.mode-card--pyq-learn:hover,
+.mode-card--pyq-practice:hover { border-color: var(--violet); box-shadow: var(--shadow-2), 0 0 30px var(--violet-dim); }
 .mode-icon { font-size: 1.8rem; }
 .mode-title { font-family: var(--font-display); font-size: 1.4rem; font-weight: 600; }
 .mode-card--learn .mode-title { color: var(--aurora); }
 .mode-card--practice .mode-title { color: var(--ember); }
+.mode-card--pyq-learn .mode-title,
+.mode-card--pyq-practice .mode-title { color: var(--violet); }
 .mode-desc { color: var(--ink-muted); font-size: 0.94rem; line-height: 1.45; flex-grow: 1; }
 .mode-cta { font-weight: 700; font-size: 0.9rem; margin-top: 6px; }
 .mode-card--learn .mode-cta { color: var(--aurora); }
 .mode-card--practice .mode-cta { color: var(--ember); }
+.mode-card--pyq-learn .mode-cta,
+.mode-card--pyq-practice .mode-cta { color: var(--violet); }
 
 /* ============================================================
    WEEK GRID (the "nest" of week nodes — signature element)

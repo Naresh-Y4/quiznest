@@ -95,4 +95,110 @@ const quizData = [
       }
     ]
   },
+  {
+  week: 2,
+  title: "Peer Pressure, Assertiveness & Body Image - Assignment 2",
+  questions: [
+    {
+      question: "Peer pressure can best be described as:",
+      options: [
+        "Self-motivation",
+        "Family expectations",
+        "Personal decision-making",
+        "Influence from peers to act in certain ways"
+      ],
+      answer: 3
+    },
+    {
+      question: "Assertiveness helps individuals to:",
+      options: [
+        "Please everyone",
+        "Express thoughts respectfully",
+        "Avoid communication",
+        "Dominate others"
+      ],
+      answer: 1
+    },
+    {
+      question: "Which factor strongly affects body image in adolescents?",
+      options: [
+        "Media influence",
+        "Weather",
+        "Food habits only",
+        "Sleep cycle"
+      ],
+      answer: 0
+    },
+    {
+      question: "What is the purpose of mindfulness?",
+      options: [
+        "Focus on past mistakes",
+        "Worry about future",
+        "Stay present in the moment",
+        "Avoid emotions"
+      ],
+      answer: 2
+    },
+    {
+      question: "Which is a relaxation technique?",
+      options: [
+        "Meditation",
+        "Overthinking",
+        "Isolation",
+        "Procrastination"
+      ],
+      answer: 0
+    },
+    {
+      question: "Emotional regulation refers to:",
+      options: [
+        "Suppressing all emotions",
+        "Ignoring feelings",
+        "Expressing anger freely",
+        "Managing emotions effectively"
+      ],
+      answer: 3
+    },
+    {
+      question: "A student's peers encourage her to join a study group and maintain a healthier routine. Although she initially feels hesitant, the decision aligns with her personal goals and helps her develop better habits. Which aspect most strongly indicates that this is positive peer pressure?",
+      options: [
+        "She agrees because she does not want to be excluded from the group.",
+        "She feels nervous before making the decision.",
+        "The influence aligns with her values and contributes to personal growth.",
+        "She changes her behaviour primarily to gain approval from her peers."
+      ],
+      answer: 2
+    },
+    {
+      question: "Active listening involves:",
+      options: [
+        "Interrupting others",
+        "Judging quickly",
+        "Paying full attention",
+        "Ignoring body language"
+      ],
+      answer: 2
+    },
+    {
+      question: "Building self-esteem means:",
+      options: [
+        "Comparing with others",
+        "Accepting oneself",
+        "Seeking validation only",
+        "Avoiding challenges"
+      ],
+      answer: 1
+    },
+    {
+      question: "Why can body image concerns feel more intense during adolescence?",
+      options: [
+        "Adolescents experience very few emotional changes.",
+        "Heightened emotional volatility can amplify concerns about appearance and self-worth.",
+        "Adolescents do not care about their appearance.",
+        "Mood swings reduce concerns about self-worth."
+      ],
+      answer: 1
+    }
+  ]
+}
 ];

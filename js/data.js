@@ -200,5 +200,112 @@ const quizData = [
       answer: 1
     }
   ]
+},
+{
+  week: 3,
+  title: "Time Management, Coping & Emotional Regulation - Assignment 3",
+  questions: [
+    {
+      question: "When faced with two assignments due on the same day, the best first step is to:",
+      options: [
+        "Ignore both assignments",
+        "Complete the easier one without planning",
+        "Prioritize tasks based on deadlines and importance",
+        "Wait until the last minute to decide"
+      ],
+      answer: 2
+    },
+    {
+      question: "Which is an example of unhealthy coping?",
+      options: [
+        "Talking to a friend",
+        "Exercise",
+        "Journaling",
+        "Excessive social media"
+      ],
+      answer: 3
+    },
+    {
+      question: "Which of the following reflects effective emotional regulation?",
+      options: [
+        "Ignoring feelings completely",
+        "Recognizing emotions and choosing a response",
+        "Reacting immediately without thinking",
+        "Blaming others for emotional distress"
+      ],
+      answer: 1
+    },
+    {
+      question: "A friend is upset, and you respond by saying, \"It sounds like you're feeling disappointed because your project didn't go as planned.\" This demonstrates:",
+      options: [
+        "Criticism",
+        "Active listening",
+        "Giving unwanted advice",
+        "Changing the subject"
+      ],
+      answer: 1
+    },
+    {
+      question: "A student breaks a large assignment into smaller tasks with deadlines. This is an example of:",
+      options: [
+        "Goal setting and time management",
+        "Avoidance",
+        "Emotional suppression",
+        "Conflict awareness"
+      ],
+      answer: 0
+    },
+    {
+      question: "Regular physical activity contributes to mental well-being by?",
+      options: [
+        "Increasing stress hormones",
+        "Reducing endorphin levels",
+        "Causing emotional instability",
+        "Enhancing mood through neurochemical changes"
+      ],
+      answer: 3
+    },
+    {
+      question: "A person who understands others' feelings during conflict shows:",
+      options: [
+        "Sympathy only",
+        "Indifference",
+        "Aggression",
+        "Empathy"
+      ],
+      answer: 3
+    },
+    {
+      question: "A student fails an exam but plans a new study strategy instead of giving up. This best demonstrates:",
+      options: [
+        "Avoidance coping",
+        "Emotional suppression",
+        "Resilience",
+        "Denial"
+      ],
+      answer: 2
+    },
+    {
+      question: "A student disagrees with a classmate but speaks calmly, listens carefully, and looks for a solution that benefits both. This is an example of:",
+      options: [
+        "Conflict resolution",
+        "Aggressive communication",
+        "Emotional avoidance",
+        "Passive behaviour"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which is NOT a component of SMART goals?",
+      options: [
+        "Specific",
+        "Measurable",
+        "Arbitrary",
+        "Time-bound"
+      ],
+      answer: 2
+    }
+  ]
 }
+
 ];

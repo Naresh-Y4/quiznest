@@ -306,6 +306,111 @@ const quizData = [
       answer: 2
     }
   ]
+},
+{
+  week: 4,
+  title: "Academic Pressure, Emotional Intelligence & Counselling - Assignment 4",
+  questions: [
+    {
+      question: "Which of the following is NOT a source of academic pressure?",
+      options: [
+        "High expectations from parents",
+        "Time constraints",
+        "Balanced lifestyle",
+        "Fear of failure"
+      ],
+      answer: 2
+    },
+    {
+      question: "Difficulty in concentration and negative thinking are examples of:",
+      options: [
+        "Behavioural symptoms",
+        "Emotional symptoms",
+        "Physical symptoms",
+        "Cognitive symptoms"
+      ],
+      answer: 3
+    },
+    {
+      question: "Emotional intelligence refers to the ability to:",
+      options: [
+        "Solve mathematical problems",
+        "Understand and manage emotions",
+        "Manage time effectively",
+        "Memorize information"
+      ],
+      answer: 1
+    },
+    {
+      question: "Career Decision Scale (CDS) is used to measure:",
+      options: [
+        "Intelligence",
+        "Career indecision",
+        "Emotional intelligence",
+        "Personality traits"
+      ],
+      answer: 1
+    },
+    {
+      question: "Which of the following is an ethical responsibility of a therapist?",
+      options: [
+        "Making all decisions on behalf of the client",
+        "Guaranteeing that therapy will always be successful",
+        "Maintaining confidentiality and obtaining informed consent",
+        "Sharing client information with friends for advice"
+      ],
+      answer: 2
+    },
+    {
+      question: "Which activity is most helpful for relaxing the mind?",
+      options: [
+        "Continuous worrying",
+        "Meditation",
+        "Skipping meals",
+        "Excessive screen time"
+      ],
+      answer: 1
+    },
+    {
+      question: "A person should seek help when:",
+      options: [
+        "Everything is going well",
+        "Problems disturb daily routine",
+        "Only during holidays",
+        "Never"
+      ],
+      answer: 1
+    },
+    {
+      question: "Which habit improves time management?",
+      options: [
+        "Planning tasks",
+        "Ignoring deadlines",
+        "Studying randomly",
+        "Sleeping less"
+      ],
+      answer: 0
+    },
+    {
+      question: "Social responsibility includes:",
+      options: [
+        "Helping others",
+        "Ignoring society",
+        "Competing always",
+        "Focusing only on self"
+      ],
+      answer: 0
+    },
+    {
+      question: "What is the primary distinction between counselling and psychotherapy?",
+      options: [
+        "Counselling focuses only on mental illness, while psychotherapy focuses on education",
+        "Counselling is generally shorter-term and addresses specific or everyday concerns, while psychotherapy may be longer-term and addresses deeper mental health concerns",
+        "Counselling is provided only by psychiatrists, while psychotherapy is provided only by counsellors",
+        "There is no difference between counselling and psychotherapy"
+      ],
+      answer: 1
+    }
+  ]
 }
-
 ];

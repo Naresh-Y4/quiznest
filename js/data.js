@@ -414,3 +414,108 @@ const quizData = [
   ]
 }
 ];
+const pyqData = {
+  title: "Previous Year Questions",
+  questions: [
+    {
+      question: "What is mental well-being?",
+      options: [
+        "Absence of mental illness",
+        "Emotional, psychological, and social well-being, affecting how we think, feel, and act",
+        "A state of complete happiness at all times",
+        "Having a high IQ and academic success"
+      ],
+      answer: 1
+    },
+    {
+      question: "Which of the following is a common emotional change during adolescence?",
+      options: [
+        "Constant mental stability",
+        "Decreased sensitivity to peer influence",
+        "Increased emotional fluctuations",
+        "Decline in identity exploration"
+      ],
+      answer: 2
+    },
+    {
+      question: "Why is identity formation significant during adolescence?",
+      options: [
+        "It helps adolescents avoid peer interactions",
+        "It promotes dependency on parental opinions",
+        "It shapes their sense of self and direction in life",
+        "It increases academic pressure"
+      ],
+      answer: 2
+    },
+    {
+      question: "Which of the following is an example of emotional intelligence?",
+      options: [
+        "Ignoring other people's feelings",
+        "Understanding and managing one's own emotions",
+        "Memorizing emotional words",
+        "Always agreeing with friends"
+      ],
+      answer: 1
+    },
+    {
+      question: "Why are support networks important in times of crisis?",
+      options: [
+        "They isolate individuals from emotional impact",
+        "They help with financial planning only",
+        "They provide emotional and psychological safety",
+        "They reduce the need for communication"
+      ],
+      answer: 2
+    },
+    {
+      question: "What role do mentors and guidance play in adolescent well-being?",
+      options: [
+        "Discourage independence",
+        "Promote critical thinking and offer life advice",
+        "Enforce academic pressure",
+        "Limit emotional growth"
+      ],
+      answer: 1
+    },
+    {
+      question: "Which of the following is a practical stress management technique?",
+      options: [
+        "Overthinking",
+        "Avoiding problems",
+        "Mindfulness and relaxation",
+        "Ignoring support systems"
+      ],
+      answer: 2
+    },
+    {
+      question: "According to Erikson, what is the central conflict during adolescence?",
+      options: [
+        "Trust vs. Mistrust",
+        "Initiative vs. Guilt",
+        "Identity vs. Role Confusion",
+        "Autonomy vs. Shame and Doubt"
+      ],
+      answer: 2
+    },
+    {
+      question: "According to Kristin Neff, which of the following is not one of the three core components of self-compassion?",
+      options: [
+        "Self-criticism",
+        "Common humanity",
+        "Mindfulness",
+        "Self-kindness"
+      ],
+      answer: 0
+    },
+    {
+      question: "What are the two main types of social comparison identified in Festinger's Social Comparison Theory?",
+      options: [
+        "Objective and Subjective Comparison",
+        "Internal and External Comparison",
+        "Upward and Downward Comparison",
+        "Realistic and Unrealistic Comparison"
+      ],
+      answer: 2
+    }
+  ]
+};

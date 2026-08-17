@@ -415,6 +415,7 @@ const quizData = [
 }
 ];
 const pyqData = {
+  week: 1,
   title: "Previous Year Questions",
   questions: [
     {

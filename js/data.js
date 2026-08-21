@@ -730,5 +730,111 @@ const pyqData = {
       ],
       answer: 2
     },
+    {
+  week: 2,
+  title: "Mental Health and Wellbeing - Assignment 2",
+  questions: [
+    {
+      question: "Which model of mental health emphasizes the interaction of biological, psychological, and social factors in determining wellbeing?",
+      options: [
+        "Biomedical Model",
+        "Biopsychosocial Model",
+        "Psychoanalytic Model",
+        "Behavioral Model"
+      ],
+      answer: 1
+    },
+    {
+      question: "Which of the following is considered a core component of psychological wellbeing?",
+      options: [
+        "Avoidance of all negative emotions",
+        "Self-acceptance and personal growth",
+        "Constant happiness",
+        "High social status"
+      ],
+      answer: 1
+    },
+    {
+      question: "In the context of mental health, protective factors refer to:",
+      options: [
+        "Conditions or attributes that mitigate risk and promote resilience",
+        "Genetically inherited disorders",
+        "External environmental stressors",
+        "Symptoms of clinical depression"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which coping strategy focuses directly on changing or eliminating the source of stress?",
+      options: [
+        "Emotion-focused coping",
+        "Problem-focused coping",
+        "Avoidant coping",
+        "Passive coping"
+      ],
+      answer: 1
+    },
+    {
+      question: "Self-reflection is a process that primarily helps an individual to:",
+      options: [
+        "Gain insight into their thoughts, feelings, and behaviors",
+        "Suppress uncomfortable feelings",
+        "Compare themselves with others continuously",
+        "Eliminate emotional reactions completely"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which factor plays a crucial role in maintaining psychological wellness during transition phases in life?",
+      options: [
+        "Social support system",
+        "Ignoring challenges",
+        "Isolation",
+        "Rigid behavior patterns"
+      ],
+      answer: 0
+    },
+    {
+      question: "The concept of emotional regulation involves:",
+      options: [
+        "Never expressing anger or sadness",
+        "Monitoring, evaluating, and modifying emotional reactions",
+        "Controlling others' emotional responses",
+        "Ignoring emotional triggers"
+      ],
+      answer: 1
+    },
+    {
+      question: "A high degree of self-efficacy enables an individual to:",
+      options: [
+        "Believe in their capacity to execute behaviors necessary to produce specific performance attainments",
+        "Blame external circumstances for failure",
+        "Avoid attempting challenging tasks",
+        "Rely solely on external feedback"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which of the following is an example of an internal locus of control?",
+      options: [
+        "Believing success is purely determined by luck",
+        "Believing one's own efforts directly influence outcomes",
+        "Attributing failures entirely to difficult exams",
+        "Relying on fate for career decisions"
+      ],
+      answer: 1
+    },
+    {
+      question: "Which practice helps in grounding oneself and reducing immediate psychological stress?",
+      options: [
+        "Mindfulness and deep breathing exercises",
+        "Excessive worrying about future outcomes",
+        "Multitasking under heavy pressure",
+        "Ignoring physical exhaustion"
+      ],
+      answer: 0
+    }
+  ]
+}
   ]
 };

@@ -518,6 +518,112 @@ const quizData = [
       answer: 1
     }
   ]
+},
+{
+  week: 6,
+  title: "Creative Arts, Expressive Therapies & Exam Anxiety - Assignment 6",
+  questions: [
+    {
+      question: "Journaling helps in:",
+      options: [
+        "Stress increase",
+        "Confusion",
+        "Emotional clarity",
+        "Avoidance"
+      ],
+      answer: 2
+    },
+    {
+      question: "Gratitude journaling improves:",
+      options: [
+        "Stress levels",
+        "Negative thinking",
+        "Fear",
+        "Positive mindset"
+      ],
+      answer: 3
+    },
+    {
+      question: "Movement therapies include:",
+      options: [
+        "Dancing and yoga",
+        "Sleeping",
+        "Watching TV",
+        "Studying"
+      ],
+      answer: 0
+    },
+    {
+      question: "Storytelling helps in:",
+      options: [
+        "Increasing anxiety",
+        "Ignoring problems",
+        "Self-exploration",
+        "Avoiding emotions"
+      ],
+      answer: 2
+    },
+    {
+      question: "Which is a mindfulness technique?",
+      options: [
+        "Overthinking",
+        "Avoiding study",
+        "Panic",
+        "Deep breathing"
+      ],
+      answer: 3
+    },
+    {
+      question: "Exam anxiety can affect:",
+      options: [
+        "Only physical health",
+        "Only mental health",
+        "Both mental and physical health",
+        "Neither"
+      ],
+      answer: 2
+    },
+    {
+      question: "A study schedule helps in:",
+      options: [
+        "Increasing stress",
+        "Avoiding exams",
+        "Managing time effectively",
+        "Confusion"
+      ],
+      answer: 2
+    },
+    {
+      question: "Positive self-talk helps to:",
+      options: [
+        "Build confidence",
+        "Increase fear",
+        "Reduce memory",
+        "Create stress"
+      ],
+      answer: 0
+    },
+    {
+      question: "How do creative arts and therapies support emotional well-being?",
+      options: [
+        "By allowing non-verbal communication and reducing stress",
+        "By suppressing emotions and causing confusion",
+        "By increasing fear and anxiety",
+        "By avoiding feelings and memory loss"
+      ],
+      answer: 0
+    },
+    {
+      question: "What strategies help in managing exam anxiety effectively?",
+      options: [
+        "Stress related to exams managed through time planning",
+        "Skipping sleep and avoiding study",
+        "Happiness before exams and procrastination",
+        "Physical strength and ignoring preparation"
+      ],
+      answer: 0
+    }
+  ]
 }
 ];
 const pyqData = {
@@ -624,6 +730,5 @@ const pyqData = {
       ],
       answer: 2
     },
-    
   ]
 };

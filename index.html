@@ -55,17 +55,17 @@
         <span class="mode-cta">Start practice →</span>
       </button>
 
-      <button class="mode-card mode-card--pyq-learn" type="button" id="pyqViewBtn">
+      <button class="mode-card mode-card--pyq-learn" type="button" data-nav="pyq-select">
         <span class="mode-icon" aria-hidden="true">🗂️</span>
         <span class="mode-title">PYQ</span>
-        <span class="mode-desc">See every previous year question with its correct answer, all in one place.</span>
-        <span class="mode-cta">View PYQs →</span>
+        <span class="mode-desc">Go week by week through previous year questions with correct answers.</span>
+        <span class="mode-cta">Browse PYQs →</span>
       </button>
 
-      <button class="mode-card mode-card--pyq-practice" type="button" id="pyqPracticeBtn">
+      <button class="mode-card mode-card--pyq-practice" type="button" data-nav="pyq-practice-setup">
         <span class="mode-icon" aria-hidden="true">📝</span>
         <span class="mode-title">Practice PYQ</span>
-        <span class="mode-desc">Jump straight into a shuffled quiz of previous year questions.</span>
+        <span class="mode-desc">Pick weeks of previous year questions and test yourself, shuffled.</span>
         <span class="mode-cta">Start PYQ practice →</span>
       </button>
     </div>
@@ -106,11 +106,39 @@
     <p class="empty-note" id="practiceEmptyNote" hidden>No questions available in the selected week(s) yet.</p>
   </section>
 
-  <!-- PYQ: VIEW (all previous year questions, straight page, no picker) -->
-  <section class="screen" id="screen-pyq-view" data-screen="pyq-view">
+  <!-- PYQ: WEEK SELECT -->
+  <section class="screen" id="screen-pyq-select" data-screen="pyq-select">
     <button class="back-btn" type="button" data-nav="home">← Back</button>
-    <h2 class="screen-title" id="pyqViewTitle">Previous Year Questions</h2>
+    <h2 class="screen-title">Choose a week of PYQs</h2>
+    <p class="screen-sub">Tap a week to see its previous year questions and answers, or view everything at once.</p>
+
+    <div class="week-grid" id="pyqWeekGrid"></div>
+
+    <button class="view-all-btn" type="button" id="viewAllPyqBtn">View all PYQ weeks (full Q&amp;A)</button>
+  </section>
+
+  <!-- PYQ: VIEW -->
+  <section class="screen" id="screen-pyq-view" data-screen="pyq-view">
+    <button class="back-btn" type="button" data-nav="pyq-select">← Back to PYQ weeks</button>
+    <h2 class="screen-title" id="pyqViewTitle">Week 1</h2>
     <div class="qa-list" id="pyqQAList"></div>
+  </section>
+
+  <!-- PYQ: PRACTICE SETUP -->
+  <section class="screen" id="screen-pyq-practice-setup" data-screen="pyq-practice-setup">
+    <button class="back-btn" type="button" data-nav="home">← Back</button>
+    <h2 class="screen-title">Choose PYQ weeks to practice</h2>
+    <p class="screen-sub">Select one or more weeks. Questions and their options will be shuffled every time.</p>
+
+    <div class="practice-controls">
+      <button class="link-btn" type="button" id="selectAllPyqBtn">Select all</button>
+      <button class="link-btn" type="button" id="clearAllPyqBtn">Clear all</button>
+    </div>
+
+    <div class="week-grid week-grid--select" id="pyqPracticeGrid"></div>
+
+    <button class="start-practice-btn" type="button" id="startPyqPracticeBtn" disabled>Start practice</button>
+    <p class="empty-note" id="pyqPracticeEmptyNote" hidden>No questions available in the selected week(s) yet.</p>
   </section>
 
   <!-- PRACTICE: QUIZ (shared by weekly practice and PYQ practice) -->
@@ -151,7 +179,7 @@
 </main>
 
 <footer class="site-footer">
-  <p>Made By Naresh_Y|All rights reserved</p>
+  <p>Made by Naresh Y · Built for Friends.</p>
 </footer>
 
 <script src="js/data.js"></script>

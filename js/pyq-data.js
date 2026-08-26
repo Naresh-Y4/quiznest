@@ -210,5 +210,111 @@ const pyqData = [
         answer: 0
       }
     ]
+  },
+  {
+    week: 3,
+    title: "Mental Health and Wellbeing - Assignment 3",
+    questions: [
+      {
+        question: "Which of the following is the first step in resolving conflicts peacefully?",
+        options: [
+          "Understanding different perspectives",
+          "Ignoring the problem",
+          "Engaging in heated debate",
+          "Seeking revenge"
+        ],
+        answer: 0
+      },
+      {
+        question: "Which of the following is NOT a feature of SMART goals?",
+        options: [
+          "Measurable",
+          "Time-bound",
+          "Unrealistic",
+          "Achievable"
+        ],
+        answer: 2
+      },
+      {
+        question: "In emotional regulation, which technique involves changing the way one thinks about a situation to alter its emotional impact?",
+        options: [
+          "Displacement",
+          "Regression",
+          "Denial",
+          "Cognitive reappraisal"
+        ],
+        answer: 3
+      },
+      {
+        question: "Which conflict resolution strategy involves a neutral third party helping both sides reach an agreement?",
+        options: [
+          "Avoidance",
+          "Aggression",
+          "Competition",
+          "Mediation"
+        ],
+        answer: 3
+      },
+      {
+        question: "What is the primary benefit of maintaining good sleep hygiene?",
+        options: [
+          "Better memory and emotional regulation",
+          "Weight loss",
+          "Increased screen time",
+          "Reduced hunger"
+        ],
+        answer: 0
+      },
+      {
+        question: "Which of the following is an emotional disagreement?",
+        options: [
+          "Disputing factual data",
+          "Arguing over a schedule",
+          "Conflict due to hurt feelings or miscommunication",
+          "Legal contract disagreements"
+        ],
+        answer: 2
+      },
+      {
+        question: "In the context of negotiation, a compromise is when:",
+        options: [
+          "One party wins completely",
+          "Both parties give up something to reach a mutually acceptable solution",
+          "No one changes their stance",
+          "A third party decides the outcome"
+        ],
+        answer: 1
+      },
+      {
+        question: "Which of the following is NOT a method of emotional regulation?",
+        options: [
+          "Staying isolated",
+          "Using reappraisal",
+          "Acknowledging the emotion",
+          "Healthy expression of the emotion"
+        ],
+        answer: 0
+      },
+      {
+        question: "The short-term effect of sleep deprivation includes which of the following?",
+        options: [
+          "Happiness",
+          "Increased concentration",
+          "Calmness",
+          "Irritability"
+        ],
+        answer: 3
+      },
+      {
+        question: "Which of the following is TRUE for physical activity?",
+        options: [
+          "Doing exercise is a very hard task",
+          "It increases stress hormone level",
+          "Boosts endorphin release",
+          "Causes energy depletion in the body"
+        ],
+        answer: 2
+      }
+    ]
   }
 ];

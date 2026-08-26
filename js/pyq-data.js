@@ -316,5 +316,111 @@ const pyqData = [
         answer: 2
       }
     ]
+  },
+  {
+    week: 4,
+    title: "Mental Health and Wellbeing - Assignment 4",
+    questions: [
+      {
+        question: "Which of the following is a recommended strategy for managing academic stress?",
+        options: [
+          "Procrastinating tasks",
+          "Developing effective study habits",
+          "Avoiding classes completely",
+          "Ignoring academic responsibilities"
+        ],
+        answer: 1
+      },
+      {
+        question: "Time management can contribute to academic success by:",
+        options: [
+          "Increasing stress levels",
+          "Enhancing productivity and reducing stress",
+          "Reducing free time completely",
+          "Encouraging last-minute cramming"
+        ],
+        answer: 1
+      },
+      {
+        question: "Self-compassion in academic pursuits primarily involves:",
+        options: [
+          "Being harsh on yourself after failure",
+          "Ignoring all mistakes",
+          "Being kind to yourself during setbacks",
+          "Expecting perfection at all times"
+        ],
+        answer: 2
+      },
+      {
+        question: "Which campus resource is most appropriate for dealing with emotional stress?",
+        options: [
+          "Sports club",
+          "Counselling centre",
+          "Library",
+          "Placement cell"
+        ],
+        answer: 1
+      },
+      {
+        question: "Career anxiety often stems from:",
+        options: [
+          "Having too many job offers",
+          "Uncertainty about future goals",
+          "Complete clarity in life plans",
+          "High confidence in skills"
+        ],
+        answer: 1
+      },
+      {
+        question: "When should one consider seeking professional help through counselling?",
+        options: [
+          "Only when forced by others",
+          "When experiencing emotional distress or life challenges",
+          "Never, as it shows weakness",
+          "Only during physical illness"
+        ],
+        answer: 1
+      },
+      {
+        question: "Cognitive Behavioural Therapy (CBT) is an example of:",
+        options: [
+          "A medical surgery",
+          "A physical exercise routine",
+          "A therapeutic approach",
+          "A dietary plan"
+        ],
+        answer: 2
+      },
+      {
+        question: "Which component is not part of emotional intelligence?",
+        options: [
+          "Self-awareness",
+          "Empathy",
+          "Intelligence Quotient (IQ)",
+          "Emotion regulation"
+        ],
+        answer: 2
+      },
+      {
+        question: "Community engagement supports mental well-being by:",
+        options: [
+          "Creating unnecessary conflicts",
+          "Enhancing social support and purpose",
+          "Increasing social isolation",
+          "Promoting competition among peers"
+        ],
+        answer: 1
+      },
+      {
+        question: "A common misconception about therapy is:",
+        options: [
+          "Therapy provides a safe space to speak",
+          "Therapy can teach useful coping strategies",
+          "Only people with severe mental illness need therapy",
+          "Therapists help guide problem-solving"
+        ],
+        answer: 2
+      }
+    ]
   }
 ];

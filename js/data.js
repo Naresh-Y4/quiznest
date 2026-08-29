@@ -93,5 +93,71 @@ const quizData = [
       { question: "How do creative arts and therapies support emotional well-being?", options: ["By allowing non-verbal communication and reducing stress","By suppressing emotions and causing confusion","By increasing fear and anxiety","By avoiding feelings and memory loss"], answer: 0 },
       { question: "What strategies help in managing exam anxiety effectively?", options: ["Stress related to exams managed through time planning","Skipping sleep and avoiding study","Happiness before exams and procrastination","Physical strength and ignoring preparation"], answer: 0 }
     ]
-  }
+  },
+  {
+  week: 7,
+  title: "Understanding Relationship and Attachment - Assignment 7",
+  questions: [
+    {
+      question: "Relationship trauma may result from:",
+      options: ["Trust", "Respect", "Support", "Betrayal or abuse"],
+      answer: 3
+    },
+    {
+      question: "Avoidant individuals in relationships tend to:",
+      options: ["Seek reassurance", "Be overly expressive", "Maintain emotional distance", "Become dependent"],
+      answer: 2
+    },
+    {
+      question: "Which of the following is most important for maintaining a healthy work-life balance?",
+      options: ["Ignoring stress", "Time management", "Overworking", "Avoiding responsibility"],
+      answer: 1
+    },
+    {
+      question: "Setting healthy personal boundaries primarily helps in:",
+      options: ["Increasing stress", "Avoiding tasks", "Reducing clarity", "Preventing burnout"],
+      answer: 3
+    },
+    {
+      question: "Healthy friendships are best characterized by:",
+      options: ["Competition", "Control", "Mutual respect", "Superiority"],
+      answer: 2
+    },
+    {
+      question: "Communication in a secure attachment relationship is generally:",
+      options: ["Aggressive", "Passive", "Avoidant", "Open and honest"],
+      answer: 3
+    },
+    {
+      question: "Conflict resolution in secure relationships typically involves:",
+      options: ["Blaming the other person", "Remaining silent", "Avoiding the issue", "Mutual understanding and problem-solving"],
+      answer: 3
+    },
+    {
+      question: "Developing a secure attachment style requires:",
+      options: ["Avoiding emotional closeness", "Emotional awareness and healthy expression", "Ignoring personal needs", "Fear of rejection"],
+      answer: 1
+    },
+    {
+      question: "According to attachment theory, which parenting pattern is most likely to contribute to the development of an anxious attachment style in children?",
+      options: [
+        "Consistent warmth with predictable responsiveness",
+        "Emotionally distant and consistently rejecting caregiving",
+        "Inconsistent caregiving with unpredictable responsiveness to the child's needs",
+        "Encouraging age-appropriate independence while remaining emotionally available"
+      ],
+      answer: 2
+    },
+    {
+      question: "A person with a history of relationship trauma has worked through therapy and developed a secure attachment style. Which behaviour best reflects this change?",
+      options: [
+        "Avoiding intimate relationships to prevent emotional pain",
+        "Depending entirely on a partner for emotional security and decision-making",
+        "Communicating needs openly, maintaining healthy boundaries, and tolerating emotional vulnerability without excessive fear",
+        "Suppressing emotions and focusing exclusively on work to avoid interpersonal closeness"
+      ],
+      answer: 2
+    }
+  ]
+}
 ];

@@ -159,5 +159,111 @@ const quizData = [
       answer: 2
     }
   ]
+},
+{
+  week: 8,
+  title: "Psychological First Aid, Motivation & Resilience - Assignment 8",
+  questions: [
+    {
+      question: "What is the key difference between intrinsic and extrinsic motivation?",
+      options: [
+        "Intrinsic motivation is driven by external rewards",
+        "Intrinsic motivation arises from internal satisfaction, while extrinsic comes from external rewards",
+        "Extrinsic motivation is self-generated",
+        "Both types involve competition"
+      ],
+      answer: 1
+    },
+    {
+      question: "During a mental health emergency, what should a professional focus on first?",
+      options: [
+        "Gathering paperwork",
+        "Making assumptions",
+        "Ensuring safety and stabilizing the individual",
+        "Discussing past history"
+      ],
+      answer: 2
+    },
+    {
+      question: "How does positive reinforcement influence motivation?",
+      options: [
+        "It increases the likelihood of repeating desired behaviours by rewarding them",
+        "It provides punishment for poor performance",
+        "It discourages repetition of behaviours",
+        "It delays goal achievement"
+      ],
+      answer: 0
+    },
+    {
+      question: "Why is aligning goals with personal values important for motivation?",
+      options: [
+        "It helps reduce emotional attachment",
+        "It decreases goal clarity",
+        "It strengthens commitment and engagement",
+        "It prevents decision-making"
+      ],
+      answer: 2
+    },
+    {
+      question: "Which skill is essential in Psychological First Aid?",
+      options: [
+        "Debating the cause of the crisis",
+        "Active listening and empathic presence",
+        "Avoiding eye contact",
+        "Giving unsolicited advice"
+      ],
+      answer: 1
+    },
+    {
+      question: "Which of the following is a warning sign of suicidal ideation in students?",
+      options: [
+        "Improved academic performance",
+        "Talking about feeling hopeless or being a burden",
+        "Expressing excitement about future plans",
+        "Increased interest in group activities"
+      ],
+      answer: 1
+    },
+    {
+      question: "What is a key strategy for approaching someone who may be thinking about suicide?",
+      options: [
+        "Avoid asking direct questions",
+        "Use vague suggestions",
+        "Ignore signs unless they ask for help",
+        "Speak openly, with compassion and without judgment"
+      ],
+      answer: 3
+    },
+    {
+      question: "What defines resilience in the context of mental health?",
+      options: [
+        "Avoiding emotional expression",
+        "The ability to adapt and recover from adversity",
+        "Suppressing difficult experiences",
+        "Always feeling happy regardless of circumstances"
+      ],
+      answer: 1
+    },
+    {
+      question: "Which strategy helps cultivate resilience during a crisis?",
+      options: [
+        "Ignoring emotions and focusing only on tasks",
+        "Denying the impact of stress",
+        "Practicing optimism and emotional awareness",
+        "Isolating oneself to prevent burdening others"
+      ],
+      answer: 2
+    },
+    {
+      question: "What is an effective way to prevent burnout?",
+      options: [
+        "Setting boundaries and prioritizing self-care",
+        "Ignoring personal needs",
+        "Taking on more responsibilities",
+        "Avoiding breaks to maintain productivity"
+      ],
+      answer: 0
+    }
+  ]
 }
 ];

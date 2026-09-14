@@ -265,5 +265,120 @@ const quizData = [
       answer: 0
     }
   ]
+},
+{
+week: 9,
+title: "Fostering Academic Relationships - Assignment 9",
+questions: [
+  {
+    question: "What is one way to prepare well for a meeting with a supervisor?",
+    options: [
+      "Arrive with no agenda or notes",
+      "Send your supervisor a brief agenda in advance",
+      "Wait for the supervisor to ask all questions",
+      "Only discuss problems you can solve yourself"
+    ],
+    answer: 1
+  },
+
+  {
+    question: "Which practice supports trust in a mentor-student relationship?",
+    options: [
+      "Sharing only partial information to avoid criticism",
+      "Asking for extensions right before every deadline",
+      "Promising effort without updating on progress",
+      "Meeting deadlines and being honest about delays"
+    ],
+    answer: 3
+  },
+
+  {
+    question: "Why is it important to ask clarifying questions of a supervisor?",
+    options: [
+      "To make the meeting last longer",
+      "To confirm that you understand the task correctly",
+      "To show that you disagree with their instructions",
+      "To avoid asking for feedback later"
+    ],
+    answer: 1
+  },
+
+  {
+    question: "Which of the following best describes a respectful mentor-student dynamic?",
+    options: [
+      "Both parties respect time, boundaries, and communication norms",
+      "The student avoids all emails and only speaks in class",
+      "The student ignores feedback but praises the mentor",
+      "The mentor makes all decisions without student input"
+    ],
+    answer: 0
+  },
+
+  {
+    question: "What is most likely to weaken a supervisory relationship?",
+    options: [
+      "Regular progress updates and openness about challenges",
+      "Being honest about not understanding part of the task",
+      "Repeatedly missing deadlines without explanation",
+      "Asking for help whenever you feel stuck"
+    ],
+    answer: 2
+  },
+
+  {
+    question: "Which message style is most appropriate for official communication with a supervisor?",
+    options: [
+      "Very casual, with emojis and slang",
+      "Written only in voice-note form",
+      "Extremely long and detailed for every small issue",
+      "Polite, clear, and professional in tone"
+    ],
+    answer: 3
+  },
+
+  {
+    question: "What is a sign of a healthy academic relationship with a mentor?",
+    options: [
+      "The student hides struggles to appear perfect",
+      "Both parties respect each other's time and boundaries",
+      "The mentor never checks on progress",
+      "The student rarely asks questions"
+    ],
+    answer: 1
+  },
+
+  {
+    question: "Which of the following is helpful when you feel confused about your supervisor's instructions?",
+    options: [
+      "Ask for examples or clarification politely",
+      "Stay silent and hope you figure it out later",
+      "Immediately switch to a different mentor",
+      "Ignore the instructions and work in your own way"
+    ],
+    answer: 0
+  },
+
+  {
+    question: "Why is it important to be honest about your workload with a supervisor?",
+    options: [
+      "It guarantees you will get easier tasks",
+      "It helps them suggest realistic timelines and priorities",
+      "It shifts full responsibility for planning onto you",
+      "It proves that you are overqualified"
+    ],
+    answer: 1
+  },
+
+  {
+    question: "Which behavior shows respect for a mentor's expertise?",
+    options: [
+      "Repeatedly arguing without evidence",
+      "Ignoring their suggestions and doing your own thing",
+      "Listening carefully and considering their advice",
+      "Publicly criticizing them in front of peers"
+    ],
+    answer: 2
+  }
+]
 }
 ];

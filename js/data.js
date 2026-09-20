@@ -380,5 +380,120 @@ questions: [
     answer: 2
   }
 ]
+},
+{
+  week: 10,
+  title: "Reflection on Mental Health and Emotional Well-being - Assignment 10",
+  questions: [
+    {
+      question: "Which behaviour best demonstrates emotional intelligence in conflict resolution?",
+      options: [
+        "Listening actively and validating feelings",
+        "Ignoring the other person's perspective",
+        "Responding with aggression immediately",
+        "Avoiding all communication"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "When recovering from illness, which choice reflects balanced self-care?",
+      options: [
+        "Ignoring medical advice",
+        "Refusing to adjust routines at all",
+        "Gradually resuming responsibilities with rest breaks",
+        "Overexerting to catch up quickly"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which element most influences identity exploration in adolescence?",
+      options: [
+        "Physical appearance alone",
+        "Daily temperature changes",
+        "Random coincidences only",
+        "Experimenting with different roles and values"
+      ],
+      answer: 3
+    },
+
+    {
+      question: "What improves the quality of group decision-making?",
+      options: [
+        "Considering diverse viewpoints before deciding",
+        "Acting on impulse without discussion",
+        "Copying the loudest voice in the room",
+        "Avoiding responsibility for choices"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "Which preparation strategy can help reduce nervousness before public speaking?",
+      options: [
+        "Avoiding rehearsal entirely",
+        "Practicing relaxation techniques like progressive muscle relaxation",
+        "Comparing negatively with experienced speakers",
+        "Pretending the event is not important"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "What strengthens resilience during long-term challenges?",
+      options: [
+        "Avoiding effort altogether",
+        "Giving up after minor setbacks",
+        "Seeking approval constantly",
+        "Building supportive relationships and coping strategies"
+      ],
+      answer: 3
+    },
+
+    {
+      question: "What is a common outcome of unmanaged academic stress?",
+      options: [
+        "Sleep enhancement",
+        "Improved emotional regulation",
+        "Decline in concentration and motivation",
+        "Unlimited productivity"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which lifestyle habit promotes sustainable self-care?",
+      options: [
+        "Establishing consistent sleep routines",
+        "Skipping meals to save time",
+        "Working without rest breaks",
+        "Neglecting hydration needs"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "How can individuals transform mistakes into growth opportunities?",
+      options: [
+        "Blaming others exclusively",
+        "Ignoring all past errors",
+        "Journaling reflections and setting improvement goals",
+        "Rejecting feedback outright"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "What is a healthy coping response when stress builds suddenly?",
+      options: [
+        "Using mindfulness to regain focus",
+        "Reacting impulsively with frustration",
+        "Escaping responsibilities immediately",
+        "Assigning blame to others"
+      ],
+      answer: 0
+    }
+  ]
 }
 ];

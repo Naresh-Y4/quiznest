@@ -498,114 +498,114 @@ questions: [
 },
 {
   week: 11,
-  title: "Motivation, Crisis & First Aid for Mental Health - Assignment 8",
+  title: "Stress Management Strategy - Assignment 11",
   questions: [
     {
-      question: "Which of the following best describes a crisis?",
+      question: "Which of the following best describes academic stress?",
       options: [
-        "A normal daily routine with no difficulty",
-        "A sudden, intense situation that overwhelms a person's ability to cope",
-        "A situation that always improves mental health",
-        "A condition unrelated to emotional or psychological functioning"
+        "Stress caused only by examinations",
+        "Pressure related to educational demands and expectations",
+        "Stress caused only by physical illness",
+        "Stress unrelated to studies"
       ],
       answer: 1
     },
 
     {
-      question: "Which of the following is a key component of crisis management in mental health?",
+      question: "Which of the following is a common effect of prolonged stress?",
       options: [
-        "Ignoring the person's emotional state",
-        "Delaying all forms of support",
-        "Rapid assessment of safety and risk",
-        "Avoiding professional resources"
+        "Improved relaxation",
+        "Increased happiness",
+        "Mental and physical exhaustion",
+        "Unlimited concentration"
       ],
       answer: 2
     },
 
     {
-      question: "What is the main purpose of de-escalation techniques during a mental health crisis?",
+      question: "Which of the following correctly represents the stages of General Adaptation Syndrome (GAS)?",
       options: [
-        "To increase agitation",
-        "To reduce agitation and the possibility of violence",
-        "To avoid communicating with the person",
-        "To make decisions without listening"
+        "Resistance → Alarm → Exhaustion",
+        "Alarm → Resistance → Exhaustion",
+        "Exhaustion → Alarm → Resistance",
+        "Alarm → Exhaustion → Resistance"
       ],
       answer: 1
     },
 
     {
-      question: "What does Naturalistic Decision-Making (NDM) involve during a mental health emergency?",
+      question: "Which of the following is an effective coping strategy for managing stress?",
       options: [
-        "Using experience, intuition, and pattern recognition in complex situations",
-        "Always following a fixed protocol without considering the situation",
-        "Avoiding decisions until the crisis ends",
-        "Allowing untrained people to make all clinical decisions"
+        "Ignoring stressful situations",
+        "Social isolation",
+        "Time management and social support",
+        "Avoiding all responsibilities"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which of the following is a key principle of mindfulness?",
+      options: [
+        "Judging every thought immediately",
+        "Focusing only on past experiences",
+        "Awareness, non-judgment, acceptance, and presence",
+        "Avoiding awareness of emotions"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which breathing technique is recommended as a mindfulness practice?",
+      options: [
+        "Rapid and irregular breathing",
+        "4–4–4 breathing technique",
+        "Continuous breath holding",
+        "Very shallow breathing"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "How does regular physical activity help in managing stress?",
+      options: [
+        "It increases stress permanently",
+        "It reduces mood and motivation",
+        "It promotes endorphin release and improves mood",
+        "It prevents all forms of emotional stress"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which of the following is a relaxation technique discussed in the stress management module?",
+      options: [
+        "Progressive Muscle Relaxation",
+        "Overnight cramming",
+        "Task avoidance",
+        "Negative self-talk"
       ],
       answer: 0
     },
 
     {
-      question: "Why are structured tools such as checklists and decision trees useful during emergencies?",
+      question: "Why is it important to identify personal stress triggers?",
       options: [
-        "They increase cognitive overload",
-        "They prevent professionals from considering risks",
-        "They help ensure important risk factors are not forgotten",
-        "They eliminate the need for professional judgment"
-      ],
-      answer: 2
-    },
-
-    {
-      question: "What is Shared Decision-Making (SDM) during a mental health crisis?",
-      options: [
-        "Making every decision without involving the patient",
-        "Involving the patient in care decisions when it is safe and feasible",
-        "Allowing only family members to make decisions",
-        "Avoiding communication with the patient"
+        "To avoid all responsibilities",
+        "To understand what contributes to stress and respond more effectively",
+        "To increase workload",
+        "To ignore stressful situations"
       ],
       answer: 1
     },
 
     {
-      question: "Which of the following best describes resilience?",
+      question: "Which of the following is an effective way to maintain a healthy stress management routine?",
       options: [
-        "Avoiding every difficult situation",
-        "Never experiencing stress or distress",
-        "The ability to adapt and recover from adversity and significant stress",
-        "Ignoring problems until they disappear"
-      ],
-      answer: 2
-    },
-
-    {
-      question: "Which type of resilience develops through learning, adaptation, and repeated coping experiences?",
-      options: [
-        "Trait resilience",
-        "Process resilience",
-        "Outcome resilience",
-        "Situational resilience"
-      ],
-      answer: 1
-    },
-
-    {
-      question: "Which of the following is an effective strategy for adapting and recovering from adversity?",
-      options: [
-        "Isolating yourself from everyone",
-        "Ignoring emotional difficulties",
-        "Building strong relationships and seeking social support",
-        "Avoiding all problem-solving activities"
-      ],
-      answer: 2
-    },
-
-    {
-      question: "Which practice can help cultivate optimism and emotional strength during challenging times?",
-      options: [
-        "Dwelling only on fears and failures",
-        "Suppressing all emotions",
-        "Practicing gratitude and maintaining a hopeful outlook",
-        "Avoiding meaningful activities"
+        "Working continuously without breaks",
+        "Ignoring sleep and exercise",
+        "Combining self-care, time management, and restorative practices",
+        "Avoiding all challenging tasks"
       ],
       answer: 2
     }

@@ -503,110 +503,102 @@ questions: [
     {
       question: "Which of the following best describes academic stress?",
       options: [
-        "Stress caused only by examinations",
+        "Stress caused only by exams",
         "Pressure related to educational demands and expectations",
-        "Stress caused only by physical illness",
+        "Stress due to physical illness only",
         "Stress unrelated to studies"
       ],
       answer: 1
     },
-
     {
-      question: "Which of the following is a common effect of prolonged stress?",
+      question: "What is a common physical symptom of stress?",
       options: [
-        "Improved relaxation",
-        "Increased happiness",
+        "Improved memory",
+        "Muscle tension",
+        "Increased relaxation",
+        "Better sleep"
+      ],
+      answer: 1
+    },
+    {
+      question: "Which breathing technique is commonly used in mindfulness practice?",
+      options: [
+        "Rapid breathing",
+        "Deep diaphragmatic breathing",
+        "Irregular breathing",
+        "Breath holding"
+      ],
+      answer: 1
+    },
+    {
+      question: "How does regular physical activity help manage stress?",
+      options: [
+        "Increases stress hormones",
+        "Reduces mood levels",
+        "Improves mood through endorphin release",
+        "Causes fatigue only"
+      ],
+      answer: 2
+    },
+    {
+      question: "Which of the following can improve stress resilience?",
+      options: [
+        "Negative thinking",
+        "Social support",
+        "Isolation",
+        "Ignoring problems"
+      ],
+      answer: 1
+    },
+    {
+      question: "What happens when stress is prolonged?",
+      options: [
+        "Improved concentration",
+        "Better relaxation",
         "Mental and physical exhaustion",
-        "Unlimited concentration"
+        "Increased happiness"
       ],
       answer: 2
     },
-
     {
-      question: "Which of the following correctly represents the stages of General Adaptation Syndrome (GAS)?",
+      question: "Which activity promotes relaxation during exams?",
       options: [
-        "Resistance → Alarm → Exhaustion",
-        "Alarm → Resistance → Exhaustion",
-        "Exhaustion → Alarm → Resistance",
-        "Alarm → Exhaustion → Resistance"
+        "Panic studying",
+        "Short breathing exercises",
+        "Avoiding breaks",
+        "Cramming overnight"
       ],
       answer: 1
     },
-
     {
-      question: "Which of the following is an effective coping strategy for managing stress?",
+      question: "Time management helps reduce stress by:",
       options: [
-        "Ignoring stressful situations",
-        "Social isolation",
-        "Time management and social support",
-        "Avoiding all responsibilities"
-      ],
-      answer: 2
-    },
-
-    {
-      question: "Which of the following is a key principle of mindfulness?",
-      options: [
-        "Judging every thought immediately",
-        "Focusing only on past experiences",
-        "Awareness, non-judgment, acceptance, and presence",
-        "Avoiding awareness of emotions"
-      ],
-      answer: 2
-    },
-
-    {
-      question: "Which breathing technique is recommended as a mindfulness practice?",
-      options: [
-        "Rapid and irregular breathing",
-        "4–4–4 breathing technique",
-        "Continuous breath holding",
-        "Very shallow breathing"
+        "Increasing confusion",
+        "Organizing tasks effectively",
+        "Avoiding deadlines",
+        "Ignoring priorities"
       ],
       answer: 1
     },
-
     {
-      question: "How does regular physical activity help in managing stress?",
+      question: "Which of the following is most helpful for maintaining focus when feeling stressed?",
       options: [
-        "It increases stress permanently",
-        "It reduces mood and motivation",
-        "It promotes endorphin release and improves mood",
-        "It prevents all forms of emotional stress"
+        "Trying to complete multiple tasks simultaneously",
+        "Taking short, planned breaks",
+        "Avoiding all difficult tasks",
+        "Working continuously without rest"
       ],
-      answer: 2
+      answer: 1
     },
-
-    {
-      question: "Which of the following is a relaxation technique discussed in the stress management module?",
-      options: [
-        "Progressive Muscle Relaxation",
-        "Overnight cramming",
-        "Task avoidance",
-        "Negative self-talk"
-      ],
-      answer: 0
-    },
-
     {
       question: "Why is it important to identify personal stress triggers?",
       options: [
-        "To avoid all responsibilities",
+        "To completely avoid all responsibilities",
         "To understand what contributes to stress and respond more effectively",
         "To increase workload",
         "To ignore stressful situations"
       ],
       answer: 1
-    },
-    {
-      question: "Which of the following is an effective way to maintain a healthy stress management routine?",
-      options: [
-        "Working continuously without breaks",
-        "Ignoring sleep and exercise",
-        "Combining self-care, time management, and restorative practices",
-        "Avoiding all challenging tasks"
-      ],
-      answer: 2
     }
   ]
 }

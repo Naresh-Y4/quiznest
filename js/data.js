@@ -497,7 +497,7 @@ questions: [
   ]
 },
 {
-  week: 8,
+  week: 11,
   title: "Motivation, Crisis & First Aid for Mental Health - Assignment 8",
   questions: [
     {

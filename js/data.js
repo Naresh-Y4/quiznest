@@ -495,5 +495,120 @@ questions: [
       answer: 0
     }
   ]
+},
+{
+  week: 8,
+  title: "Motivation, Crisis & First Aid for Mental Health - Assignment 8",
+  questions: [
+    {
+      question: "Which of the following best describes a crisis?",
+      options: [
+        "A normal daily routine with no difficulty",
+        "A sudden, intense situation that overwhelms a person's ability to cope",
+        "A situation that always improves mental health",
+        "A condition unrelated to emotional or psychological functioning"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Which of the following is a key component of crisis management in mental health?",
+      options: [
+        "Ignoring the person's emotional state",
+        "Delaying all forms of support",
+        "Rapid assessment of safety and risk",
+        "Avoiding professional resources"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "What is the main purpose of de-escalation techniques during a mental health crisis?",
+      options: [
+        "To increase agitation",
+        "To reduce agitation and the possibility of violence",
+        "To avoid communicating with the person",
+        "To make decisions without listening"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "What does Naturalistic Decision-Making (NDM) involve during a mental health emergency?",
+      options: [
+        "Using experience, intuition, and pattern recognition in complex situations",
+        "Always following a fixed protocol without considering the situation",
+        "Avoiding decisions until the crisis ends",
+        "Allowing untrained people to make all clinical decisions"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "Why are structured tools such as checklists and decision trees useful during emergencies?",
+      options: [
+        "They increase cognitive overload",
+        "They prevent professionals from considering risks",
+        "They help ensure important risk factors are not forgotten",
+        "They eliminate the need for professional judgment"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "What is Shared Decision-Making (SDM) during a mental health crisis?",
+      options: [
+        "Making every decision without involving the patient",
+        "Involving the patient in care decisions when it is safe and feasible",
+        "Allowing only family members to make decisions",
+        "Avoiding communication with the patient"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Which of the following best describes resilience?",
+      options: [
+        "Avoiding every difficult situation",
+        "Never experiencing stress or distress",
+        "The ability to adapt and recover from adversity and significant stress",
+        "Ignoring problems until they disappear"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which type of resilience develops through learning, adaptation, and repeated coping experiences?",
+      options: [
+        "Trait resilience",
+        "Process resilience",
+        "Outcome resilience",
+        "Situational resilience"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Which of the following is an effective strategy for adapting and recovering from adversity?",
+      options: [
+        "Isolating yourself from everyone",
+        "Ignoring emotional difficulties",
+        "Building strong relationships and seeking social support",
+        "Avoiding all problem-solving activities"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which practice can help cultivate optimism and emotional strength during challenging times?",
+      options: [
+        "Dwelling only on fears and failures",
+        "Suppressing all emotions",
+        "Practicing gratitude and maintaining a hopeful outlook",
+        "Avoiding meaningful activities"
+      ],
+      answer: 2
+    }
+  ]
 }
 ];

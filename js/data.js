@@ -598,7 +598,6 @@ questions: [
       ],
       answer: 1
     },
-
     {
       question: "Which of the following is an effective way to maintain a healthy stress management routine?",
       options: [

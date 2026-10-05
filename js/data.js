@@ -601,5 +601,120 @@ questions: [
       answer: 1
     }
   ]
+},
+{
+  week: 12,
+  title: "Social Media and its Impact on Mental Health - Assignment 12",
+  questions: [
+    {
+      question: "Body image refers to:",
+      options: [
+        "Physical fitness level",
+        "Perception and feelings about one's body",
+        "Body weight only",
+        "Medical health status"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Upward social comparison involves:",
+      options: [
+        "Comparing with less successful people",
+        "Ignoring other people",
+        "Comparing with better-looking or more successful people",
+        "Comparing only with close friends"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Objectification theory suggests that:",
+      options: [
+        "People completely ignore their appearance",
+        "Individuals see themselves from an outsider's perspective",
+        "Social media has no effect on body image",
+        "Only men are affected by appearance concerns"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "What does FOMO stand for?",
+      options: [
+        "Fear of Missing Out",
+        "Fear of Mental Overload",
+        "Feeling of Mood Oscillation",
+        "Focus on Media Output"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "Digital fatigue is best described as:",
+      options: [
+        "A physical illness only",
+        "Mental exhaustion from prolonged digital engagement",
+        "Lack of sleep only",
+        "Internet connection failure"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Which of the following is a key feature of cyberbullying?",
+      options: [
+        "Face-to-face interaction",
+        "Limited impact",
+        "Online harassment",
+        "Only adults are affected"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Social media likes and comments can activate which reward-related chemical?",
+      options: [
+        "Serotonin",
+        "Dopamine",
+        "Melatonin",
+        "Insulin"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Curated content means:",
+      options: [
+        "Raw and completely unedited life",
+        "Random posts without selection",
+        "Selectively edited and idealized posts",
+        "Scientific data only"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which of the following can negatively affect self-esteem when using social media?",
+      options: [
+        "Comparing oneself with others online",
+        "Taking regular breaks from social media",
+        "Following positive and supportive content",
+        "Limiting screen time"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "Which of the following is a healthy approach to social media use?",
+      options: [
+        "Checking social media whenever feeling stressed",
+        "Comparing your appearance with influencers",
+        "Setting boundaries around screen time",
+        "Seeking validation through likes and comments"
+      ],
+      answer: 2
+    }
+  ]
 }
 ];

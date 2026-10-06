@@ -422,5 +422,236 @@ const pyqData = [
         answer: 2
       }
     ]
+  },
+    {
+    week: 5,
+    title: "Mental Health and Wellbeing - Assignment 5",
+    questions: [
+      {
+        question: "Which of the following is an example of emotional validation?",
+        options: [
+          "\"Everyone else finished it; you're just overthinking.\"",
+          "\"It's not a big deal; you'll be fine.\"",
+          "\"I can understand why that project stressed you out. It had a lot of components.\"",
+          "\"You shouldn't feel that way over such a small issue.\""
+        ],
+        answer: 2
+      },
+
+      {
+        question: "What is the key difference between healthy and unhealthy emotional ventilation?",
+        options: [
+          "Healthy ventilation avoids emotions, while unhealthy ventilation involves talking too much.",
+          "Healthy ventilation includes creative expression or seeking support, while unhealthy ventilation involves suppression or aggression.",
+          "Healthy ventilation happens in isolation, while unhealthy ventilation requires others.",
+          "Healthy ventilation is based on logic, while unhealthy ventilation is based on feelings."
+        ],
+        answer: 1
+      },
+
+      {
+        question: "Why is naming emotions important in emotional regulation?",
+        options: [
+          "It allows others to understand your intellect.",
+          "It improves memory and analytical thinking.",
+          "It brings clarity, supports regulation, and aids decision-making.",
+          "It eliminates negative feelings."
+        ],
+        answer: 2
+      },
+
+      {
+        question: "Which statement best demonstrates active listening during emotional validation?",
+        options: [
+          "\"You're not the only one with problems.\"",
+          "\"So, I hear you saying that you're overwhelmed with assignments.\"",
+          "\"Try not to think about it too much.\"",
+          "\"Just calm down, everything will be fine.\""
+        ],
+        answer: 1
+      },
+
+      {
+        question: "Which of the following is an example of a mental boundary?",
+        options: [
+          "Asking a friend not to borrow your clothes without permission.",
+          "Telling someone you need personal space during a conflict.",
+          "Requesting that your opinions be respected during a group discussion.",
+          "Saying \"no\" to physical affection when you're uncomfortable."
+        ],
+        answer: 2
+      },
+
+      {
+        question: "What is a key benefit of reframing conflict positively?",
+        options: [
+          "It helps avoid the conflict entirely.",
+          "It allows one person to dominate the conversation.",
+          "It encourages empathy, clarity, and long-term solutions.",
+          "It creates emotional distance and detachment."
+        ],
+        answer: 2
+      },
+
+      {
+        question: "What is the primary benefit of emotional resilience?",
+        options: [
+          "Avoiding all negative emotions.",
+          "Suppressing emotional reactions.",
+          "Bouncing back from adversity and managing stress effectively.",
+          "Becoming emotionally detached from challenges."
+        ],
+        answer: 2
+      },
+
+      {
+        question: "Which of the following is a component of self-compassion?",
+        options: [
+          "Ignoring your mistakes to stay positive.",
+          "Comparing yourself to others to improve.",
+          "Being kind to yourself during times of failure.",
+          "Avoiding all negative feedback."
+        ],
+        answer: 2
+      },
+
+      {
+        question: "How does optimism contribute to resilience?",
+        options: [
+          "It prevents all future setbacks.",
+          "It helps in denying negative emotions.",
+          "It encourages problem-solving and reduces stress.",
+          "It ensures only positive outcomes."
+        ],
+        answer: 2
+      },
+
+      {
+        question: "Which of the following is an adaptive coping mechanism?",
+        options: [
+          "Avoiding the problem entirely.",
+          "Blaming others for the situation.",
+          "Practising mindfulness and seeking solutions.",
+          "Overindulging in distractions."
+        ],
+        answer: 2
+      }
+    ]
+  },
+
+  {
+    week: 6,
+    title: "Mental Health and Wellbeing - Assignment 6",
+    questions: [
+      {
+        question: "How do creative arts like painting and music support mental health?",
+        options: [
+          "By promoting academic competition",
+          "By offering emotional expression and healing",
+          "By improving financial decision-making",
+          "By discouraging emotional vulnerability"
+        ],
+        answer: 1
+      },
+
+      {
+        question: "What is a key benefit of art therapy in trauma recovery?",
+        options: [
+          "Encourages verbal confrontation",
+          "Avoids addressing the trauma",
+          "Provides a non-verbal outlet to process emotions",
+          "Focuses on perfectionism in technique"
+        ],
+        answer: 2
+      },
+
+      {
+        question: "What is one major goal of expressive arts in mental health contexts?",
+        options: [
+          "To produce professional-level art",
+          "To avoid emotional discussions",
+          "To express inner thoughts and feelings safely",
+          "To judge creative abilities"
+        ],
+        answer: 2
+      },
+
+      {
+        question: "How can students identify triggers of exam anxiety?",
+        options: [
+          "By ignoring stress",
+          "By analyzing their emotional and behavioural responses",
+          "By avoiding study groups",
+          "By increasing their screen time"
+        ],
+        answer: 1
+      },
+
+      {
+        question: "How does journaling help with emotional clarity?",
+        options: [
+          "By listing daily tasks",
+          "By expressing thoughts and emotions privately",
+          "By documenting others' opinions",
+          "By copying academic content"
+        ],
+        answer: 1
+      },
+
+      {
+        question: "What is the mental health benefit of movement-based therapies like yoga and dance?",
+        options: [
+          "Promotes emotional awareness and stress relief",
+          "Increases intellectual debates",
+          "Trains for athletic competition",
+          "Enhances multitasking"
+        ],
+        answer: 0
+      },
+
+      {
+        question: "What is the purpose of role-playing in therapeutic settings?",
+        options: [
+          "To confuse personal identity",
+          "To build empathy and explore different perspectives",
+          "To practice dramatic skills",
+          "To compete for attention"
+        ],
+        answer: 1
+      },
+
+      {
+        question: "Which lifestyle habit contributes to better mental well-being during exams?",
+        options: [
+          "Skipping meals to study longer",
+          "Staying up all night",
+          "Maintaining a balanced diet, sleep, and physical activity",
+          "Avoiding relaxation breaks"
+        ],
+        answer: 2
+      },
+
+      {
+        question: "Which technique is useful for calming the nervous system during stress?",
+        options: [
+          "Multitasking",
+          "Passive TV watching",
+          "Mindfulness and deep breathing",
+          "Social media scrolling"
+        ],
+        answer: 2
+      },
+
+      {
+        question: "Which of the following is an example of hands-on creative self-expression?",
+        options: [
+          "Reading a psychology textbook",
+          "Listening to a lecture",
+          "Painting your emotions on a canvas",
+          "Memorizing musical notes"
+        ],
+        answer: 2
+      }
+    ]
   }
 ];
